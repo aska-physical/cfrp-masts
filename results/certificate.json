@@ -1,0 +1,76 @@
+{
+  "certificate_version": "1.0.0",
+  "must_fail_controls": [
+    {
+      "control": "unbraced_mast_carries_cantilever_shear_without_pore_cables",
+      "rejected": true
+    },
+    {
+      "control": "timoshenko_shear_ignored_gives_overoptimistic_deflection",
+      "rejected": true
+    },
+    {
+      "control": "cable_pretension_buckles_local_cfrp_tubes",
+      "rejected": true
+    },
+    {
+      "control": "solid_rod_matches_hollow_tube_eta08_buckling",
+      "rejected": true
+    },
+    {
+      "control": "fixed_metal_octet_matches_incentre_folding_compaction",
+      "rejected": true
+    }
+  ],
+  "repository": "aska-physical/cfrp-masts",
+  "space_boom_5m_benchmark": {
+    "al_6061_octet_boom": {
+      "EI_Nm2": 62301.1,
+      "first_mode_Hz": 1.939,
+      "structural_mass_kg": 21.094,
+      "thermal_drift_100K_mm": 11.55,
+      "tip_deflection_mm": 33.4732,
+      "volumetric_compaction_ratio": 1.0
+    },
+    "cable_pretension_window": {
+      "T_pre_min_N": 17.678,
+      "eps_pre_min_microstrain": 0.71,
+      "local_tube_buckling_N": 2781767.05,
+      "safety_factor_at_3x_pretension": 52453.5
+    },
+    "k13d2u_snap_locked_boom": {
+      "EI_Nm2": 586069.1,
+      "GA_N": 35954137.5,
+      "first_mode_Hz": 6.516,
+      "global_buckling_kN": 57.75,
+      "stowed_stack_length_m": 1.508,
+      "structural_mass_kg": 14.062,
+      "thermal_drift_100K_mm": 0.3,
+      "tip_deflection_mm": 3.5617,
+      "tubular_buckling_gain": 4.5556,
+      "volumetric_compaction_ratio": 3.3166
+    },
+    "specific_EI_gain_vs_ti_octet_x": 14.02,
+    "thermal_drift_reduction_vs_al_x": 38.5,
+    "ti_6al_4v_octet_boom": {
+      "EI_Nm2": 102900.8,
+      "first_mode_Hz": 2.167,
+      "structural_mass_kg": 34.609,
+      "thermal_drift_100K_mm": 4.3,
+      "tip_deflection_mm": 20.2663,
+      "volumetric_compaction_ratio": 1.0
+    }
+  },
+  "telecom_mast_15m_t1100g": {
+    "EI_Nm2": 8123485.3,
+    "GA_N": 86520691.0,
+    "first_mode_Hz": 1.462,
+    "global_buckling_kN": 88.992,
+    "stowed_stack_length_m": 4.523,
+    "structural_mass_kg": 251.748,
+    "thermal_drift_100K_mm": 0.6,
+    "tip_deflection_mm": 110.9286,
+    "tubular_buckling_gain": 4.5556,
+    "volumetric_compaction_ratio": 3.3166
+  }
+}
