@@ -14,6 +14,15 @@ ROOT = Path(__file__).resolve().parent
 CERT_PATH = ROOT / "results" / "certificate.json"
 
 
+class CheckFailure(RuntimeError):
+    """A failed verification check, raised explicitly so python3 -O cannot strip it."""
+
+
+def require(ok: bool, message: str) -> None:
+    if not ok:
+        raise CheckFailure(message)
+
+
 def evaluate_incentre_mast(
     span_m: float,
     bay_width_m: float,
@@ -116,9 +125,18 @@ def run_verification() -> dict[str, Any]:
 
     specific_EI_k13 = k13_boom["EI_Nm2"] / k13_boom["structural_mass_kg"]
     specific_EI_ti = ti_boom["EI_Nm2"] / ti_boom["structural_mass_kg"]
-    assert specific_EI_k13 > 10.0 * specific_EI_ti
-    assert k13_boom["thermal_drift_100K_mm"] < al_boom["thermal_drift_100K_mm"] / 30.0
-    assert abs(k13_boom["volumetric_compaction_ratio"] - 3.3166) < 1e-3
+    require(
+        specific_EI_k13 > 10.0 * specific_EI_ti,
+        f"K13 specific EI gain ({specific_EI_k13 / specific_EI_ti:.2f}x) does not exceed 10.0x",
+    )
+    require(
+        k13_boom["thermal_drift_100K_mm"] < al_boom["thermal_drift_100K_mm"] / 30.0,
+        f"K13 thermal drift ({k13_boom['thermal_drift_100K_mm']} mm) does not beat Al/30",
+    )
+    require(
+        abs(k13_boom["volumetric_compaction_ratio"] - 3.3166) < 1e-3,
+        f"K13 volumetric compaction ratio ({k13_boom['volumetric_compaction_ratio']}) drifted from 3.3166",
+    )
 
     L_cell = 0.25
     R_inc = math.sqrt(2.0) - 1.0
@@ -130,7 +148,10 @@ def run_verification() -> dict[str, Any]:
     P_cr_local_strut_N = (math.pi**2 * (562.4e9) * I_tube) / (L_strut**2)
     T_pre_min_N = 50.0 / (2.0 * math.sqrt(2.0))
     eps_pre_min = T_pre_min_N / (562.4e9 * A_cable)
-    assert 3.0 * T_pre_min_N < 0.20 * P_cr_local_strut_N
+    require(
+        3.0 * T_pre_min_N < 0.20 * P_cr_local_strut_N,
+        f"3x pretension ({3.0 * T_pre_min_N:.3f} N) exceeds 20% of local tube buckling ({0.20 * P_cr_local_strut_N:.2f} N)",
+    )
 
     controls = [
         {"control": "unbraced_mast_carries_cantilever_shear_without_pore_cables", "rejected": unbraced_boom["GA_N"] == 0.0 and unbraced_boom["tip_deflection_mm"] == -1.0},
@@ -139,7 +160,8 @@ def run_verification() -> dict[str, Any]:
         {"control": "solid_rod_matches_hollow_tube_eta08_buckling", "rejected": k13_boom["tubular_buckling_gain"] > 4.5},
         {"control": "fixed_metal_octet_matches_incentre_folding_compaction", "rejected": k13_boom["volumetric_compaction_ratio"] > 3.3 * ti_boom["volumetric_compaction_ratio"]},
     ]
-    assert all(c["rejected"] for c in controls)
+    failed_controls = [c["control"] for c in controls if not c["rejected"]]
+    require(not failed_controls, f"must-fail controls did not reject: {failed_controls}")
 
     return {
         "repository": "aska-physical/cfrp-masts",
