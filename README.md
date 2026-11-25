@@ -25,7 +25,7 @@ Each mast bay uses thin-walled pultruded/filament-wound CFRP tubes (inner/outer 
 | **Stowed Stack Length** | $5.00\text{ m}$ (fixed) | $5.00\text{ m}$ (fixed) | **$1.51\text{ m}$** ($3.32\times$ fold) | **Fits compact fairing / truck bed** |
 | **$100\text{ K}$ Thermal Drift** | $11.55\text{ mm}$ | $4.30\text{ mm}$ | **$0.30\text{ mm}$** | **38.5x lower pointing drift vs. Al** |
 
-`verify.py` also sizes and verifies a **`15.0 m` portable T1100G telecom/defense mast** ($0.60\text{ m}$ bay, $251.7\text{ kg}$, stowing to **$4.52\text{ m}$**, global Haringx buckling capacity **$88.99\text{ kN}$**).
+`verify.py` also sizes and verifies a **`15.0 m` portable T1100G telecom/defense mast** ($0.60\text{ m}$ bay, $251.7\text{ kg}$, stowing to **$4.52\text{ m}$**, global Haringx buckling capacity **$88.99\text{ kN}$**), and caps local tubular strut compression across **all three modes** $P_{\text{allow}} = \min(P_{\text{Euler}}, \sigma_{\text{kink}} A, \gamma_{\text{SP-8007}} \sigma_{\text{shell}} A)$ (for the $5\text{ m}$ K13D2U boom strut, elastic Euler stress is an unphysical $22.85\text{ GPa}$, whereas K13D2U kink-band compression at $350\text{ MPa}$ governs at **$42.61\text{ kN}$**, giving a real **$803.54\times$** safety factor at $3\times$ cable pretension; `7/7` controls).
 
 ## Reproduce & Verify
 
