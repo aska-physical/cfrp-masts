@@ -1,0 +1,93 @@
+{
+  "ball_radius_squared": "1/2",
+  "bar_length_squared": "2",
+  "bars": 15,
+  "check": "fcc-end-tube-clearance",
+  "checker_sha256": {
+    "fcc_end_tube_clearance.py": "0351f537c2b82f1b113f46a6cf6176a2d2b20d795f087b65e530d0b92d0dc802",
+    "test_fcc_end_tube_clearance_r5.py": "deae7e85e0723fc4da14cc45215dd989eaab193382521a1cee312113b1390392"
+  },
+  "clears": true,
+  "det_L_over_K3": 12,
+  "min_d2_over_bar_length_squared": "1/2",
+  "min_nonincident_d2": "1",
+  "mutation": {
+    "aletheia_git": "c719d1bced1c15d9372e214bf9f188497a8ffc23",
+    "guards": [
+      "need"
+    ],
+    "killed": 20,
+    "max_mutants": 0,
+    "null_mutant": "passed",
+    "survived": 0,
+    "tool": "Foundation-0/aletheia mutate",
+    "total": 20
+  },
+  "novelty": "N0",
+  "oracle": "exact",
+  "pairs_at_minimum": 6,
+  "provenance": "source_claim",
+  "r_out_max_squared": "1/4",
+  "r_out_squared_under_test": "0",
+  "scope": {
+    "bench_measurement": false,
+    "end_state": "m=1 fcc closed form",
+    "path": "NOT_SHOWN",
+    "periodic_shifts": "[-1,1]^3",
+    "shared_vertices": "joints, excluded"
+  },
+  "source": "Foundation-0/incentre-lattices results/fold-m1/PROOF.md (fcc row)",
+  "source_commit": {
+    "git": "96f7bc7ed52e27d472b3ba69c5f555c1cbf307cc",
+    "proof": "results/fold-m1/PROOF.md",
+    "proof_blob": "bd396624fd7f443db89c243c4d6a28d443724800",
+    "repo": "Foundation-0/incentre-lattices"
+  },
+  "units": "K = 2 - sqrt(2); coordinates are integers in that unit",
+  "witness": {
+    "bar_i": 1,
+    "bar_j": 14,
+    "d2": "1",
+    "shift": [
+      0,
+      0,
+      0
+    ]
+  },
+  "witness_endpoints": {
+    "mid1": [
+      "1/2",
+      "-1/2",
+      "0"
+    ],
+    "mid2": [
+      "1/2",
+      "-1/2",
+      "1"
+    ],
+    "seg1": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0
+      ]
+    ],
+    "seg2": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        -1,
+        1
+      ]
+    ]
+  }
+}

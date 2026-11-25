@@ -1,0 +1,216 @@
+===== Foundation-0 =====
+Foundation-0/math0	false	2026-11-25T01:34:02Z	Math explorations.
+Foundation-0/aletheia	false	2026-11-25T01:32:56Z	research methodology designed from first principles for agent swarms
+Foundation-0/aletheia-corpus	false	2026-11-25T01:32:53Z	original aletheia swarm logs 
+Foundation-0/cave-expedition	false	2026-11-24T23:11:36Z	Cave Expedition: First-Principles Cartography, Peer-Web Frontier Seams, & Adversarial Verification Ledger (8-Way Schur-Complement Unificatio
+Foundation-0/f0	false	2026-11-24T23:11:00Z	Tracking the frontier of progress.
+Foundation-0/aletheia-shell	false	2026-11-24T22:40:50Z	Aletheia Research Exoskeleton: Omarchy + ml-os Zenbook Pro Duo (RTX 3080 / 32 GiB) bootstrap, zero-loss SQLite/swarm migration, and continua
+Foundation-0/proven-commons	false	2026-11-24T16:26:33Z	Anthology of lean builds from the @proven-commons org.
+Foundation-0/project-asma	false	2026-11-24T09:23:44Z	In memory of Asma Ansari, a brilliant mind and light in everyone's lives.
+Foundation-0/physics0	false	2026-11-24T01:26:36Z	Exploring physics for new findings 
+Foundation-0/certified-orbits	false	2026-11-24T01:26:19Z	Computer-assisted proofs that published numerical periodic orbits of the three-body problem really exist.
+Foundation-0/covering-min-modulus	false	2026-11-24T01:25:34Z	Re-checking the record covering system (minimum modulus 42) and searching for one with minimum modulus 43 (Erdős problem 2).
+Foundation-0/relative-equilibria	false	2026-11-24T01:24:09Z	Computer-certified counts of the equilibrium shapes of n equal masses and of n identical point vortices.
+Foundation-0/gaia-dr4	false	2026-11-24T01:22:44Z	Checking earlier claims against Gaia's fourth data release (2 Dec 2026): planets validated by machine learning, TESS candidates, long-period
+Foundation-0/lost-eclipses	false	2026-11-24T01:20:55Z	Eclipsing binaries catalogued from old photographic plates that no longer eclipse in TESS.
+Foundation-0/plate-novae	false	2026-11-24T01:19:17Z	Searching a century of Harvard photographic plates for unseen earlier eruptions of known novae.
+Foundation-0/wwssn-microseisms	false	2026-11-24T01:18:02Z	Ocean wave energy in 1962–78, measured from USGS scans of World-Wide Standardized Seismographic Network records.
+Foundation-0/point-charges	false	2026-11-24T01:17:26Z	Point-charge electrostatics explorations
+Foundation-0/.github	false	2026-11-24T01:16:22Z	Foundation-0 organization defaults: profile, repository standard, and shared community health.
+Foundation-0/st0a	false	2026-11-24T01:16:00Z	agentic collab hub
+Foundation-0/rigid-realizations	false	2026-11-24T01:14:52Z	Can all 880 complex realizations of the 10-vertex rigid framework be real? Certified counts of real realizations of rigid graphs.
+Foundation-0/rism-anon	false	2026-11-24T01:13:42Z	Matches anonymous music manuscripts in RISM to works by named composers, by their opening bars.
+Foundation-0/gfq-codes	false	2026-11-24T01:00:17Z	Better linear codes over GF(3) to GF(9), each with a minimum distance anyone can recompute, for the codetables.de tables.
+Foundation-0/quotient-lp-bounds	false	2026-11-24T00:54:41Z	Exact rational 1-Lipschitz quotient LP, Farkas dual flow, and monotone deficit certificates for discrete transition systems
+Foundation-0/gravity	false	2026-11-24T00:54:36Z	Exploration into the fundamental nature of gravity, one of the universe's fundamental forces. 
+Foundation-0/incentre-lattices	false	2026-11-24T00:38:01Z	One drawing, followed all the way down: incentre construction, uniform honeycombs, borides, rigidity in n dimensions, and open agent-assiste
+Foundation-0/formal-claims-audit	false	2026-11-24T00:27:33Z	Checks whether the formal (Lean) statements behind AI-claimed results say what their papers claim.
+Foundation-0/bayt-al-hikma	false	2026-11-23T18:19:15Z	Bayt al-Hikma & Classical Arabic Continuum Research Program under Aletheia v2.0.0 (OWN_TERMS_FIRST, Law 2b Transformational Steelman, Zero N
+Foundation-0/exoplanets-frontier	false	2026-11-23T13:55:54Z	Out-of-sample TESS Sector 106-107 transit verification and unsearched-regime exoplanet discovery pipeline
+Foundation-0/virtual-human	false	2026-11-23T11:46:00Z	Solving problems in the human body by formalizing the real world into code for agents.
+Foundation-0/hawking	false	2026-11-23T08:39:21Z	carrying forward the work of Dr. Hawking
+Foundation-0/ramanujan	false	2026-11-23T08:23:35Z	expanding on the work of Dr. Ramanujan
+Foundation-0/continuum	false	2026-11-22T22:20:54Z	theory of reality as transformations within a single continuum 
+Foundation-0/quantum	false	2026-11-21T18:01:07Z	exploring quantum phenomena
+Foundation-0/spectral-inertia	false	2026-11-21T04:03:18Z	Exact Q(i) higher-moment spectral rank bounds, non-affine complex-Hermitian Bernstein box certifier, and hardened dual-oracle Sylvester/Desc
+Foundation-0/fractals	false	2026-11-21T03:19:53Z	on fractals
+Foundation-0/permutation-sums	false	2026-11-20T16:47:34Z	Exact checks for permanents, rook polynomials, and one rational unitary.
+Foundation-0/bi0	false	2026-11-19T01:31:21Z	Life sciences explorations.
+Foundation-0/silic0n	false	2026-11-17T20:50:39Z	Verified-computation research directions: integer multiplication bounds, GF(2^m) circuits, Mobius transforms
+Foundation-0/vitruvian3d	false	2026-11-16T16:30:21Z	experimenting with the idea of a three dimensional virtuvian human using f0 geometrical and biological explorations/research
+Foundation-0/finite-state-proofs	false	2026-11-15T10:09:29Z	Finite state proofs, what else?
+Foundation-0/alch	false	2026-11-15T01:36:58Z	site files
+Foundation-0/astr0	false	2026-11-12T23:29:54Z	Astronomy explorations (scaffolding — content to come).
+Foundation-0/nhanes-bioimpedance	false	2026-11-11T21:12:33Z	
+Foundation-0/thermal-capture	false	2026-11-11T21:11:50Z	research on contained thermal systems 
+Foundation-0/ductricity	false	2026-11-11T21:11:29Z	a duct whose wall is the same surface that shakes the flow and extracts from it 
+Foundation-0/overdue-data	false	2026-11-11T20:54:45Z	Finds datasets that papers say were deposited but that are still unreleased, so the archives can follow them up.
+Foundation-0/asma-data	false	2026-11-11T16:59:22Z	Private records for research on https://github.com/Foundation-0/project-asma
+Foundation-0/medcode	false	2026-11-06T16:08:19Z	MedCode static demo
+Foundation-0/cosmic-denoising	false	2026-11-01T04:49:57Z	Exploration into potential relationship between denoising techniques and the emergence of distinct matter in the early universe, from a cont
+Foundation-0/tissue-dielectrics	false	2026-10-31T13:24:39Z	
+Foundation-0/ion-tracker	false	2026-10-28T05:15:30Z	Ion proposal tracker for Foundation-0 (private: proposal bodies may name private repos)
+Foundation-0/discussi0n	false	2026-10-28T04:47:57Z	Foundation-0 org-wide discussions hub: announcements, ideas, Q&A, and open research review.
+Foundation-0/plate-eclipses	false	2026-10-18T23:03:31Z	Eclipse-plate studies (scaffolding — content to come).
+Foundation-0/demo-repository	true	2026-10-18T21:44:18Z	A code repository designed to show the best GitHub has to offer.
+===== Proven-Commons =====
+Proven-Commons/mcproof	false	2026-11-24T01:11:37Z	formal verification domain for models to operate within
+Proven-Commons/http	false	2026-11-20T11:33:45Z	lean HTTP request-line and header parser (RFC 9112)
+Proven-Commons/utf	false	2026-11-20T07:03:16Z	lean UTF-8 codec
+Proven-Commons/tar	false	2026-11-20T06:27:59Z	Lean-verified tar (ustar) extractor with a proved no-escape extraction gate. A Proven Commons project.
+Proven-Commons/rfc	false	2026-11-20T06:25:55Z	lean RFC 3339 timestamp parser
+Proven-Commons/path	false	2026-11-20T06:20:59Z	Lean lexical path cleaning (Go path.Clean rules)
+Proven-Commons/mission	false	2026-11-20T06:11:03Z	Structure to build, ship, and maintain lean-verified libraries; as well as train future verifiers on live work. 
+Proven-Commons/.github	false	2026-11-20T06:07:06Z	a ✨special ✨ repository
+Proven-Commons/cedar	false	2026-11-20T06:05:04Z	Lean Cedar-style policy engine: permit and forbid decisions
+Proven-Commons/png	false	2026-11-20T06:05:04Z	lean PNG chunk parser with CRC-32 check
+Proven-Commons/dns	false	2026-11-20T05:59:42Z	lean DNS wire header and question parser (RFC 1035)
+Proven-Commons/dhcpv4	false	2026-11-20T05:56:48Z	Lean DHCPv4 wire message parser
+Proven-Commons/site	false	2026-11-11T17:00:18Z	alt site
+Proven-Commons/xml	false	2026-10-30T05:03:34Z	Lean XML safe subset parser (no document type declarations, no entities)
+Proven-Commons/cbor	false	2026-10-30T05:02:50Z	lean CBOR decoder (RFC 8949)
+Proven-Commons/mqtt	false	2026-10-30T04:54:26Z	Lean MQTT 5.0 packet framing
+Proven-Commons/clienthello	false	2026-10-30T04:51:27Z	Lean TLS ClientHello parser (RFC 8446, section 4.1.2)
+Proven-Commons/jws	false	2026-10-30T04:41:37Z	Lean JWS compact serialization parser and claim checks
+Proven-Commons/ntp	false	2026-10-30T04:32:04Z	Lean NTP wire packet parser
+Proven-Commons/sqlite	false	2026-10-30T04:26:11Z	Lean SQLite file format reader: header, pages, records
+Proven-Commons/der	false	2026-10-30T04:17:39Z	Lean ASN.1 DER element reader (X.690)
+Proven-Commons/hpack	false	2026-10-30T04:08:34Z	Lean HPACK stateless part (RFC 7541): prefix integers, Huffman strings, static table
+Proven-Commons/punycode	false	2026-10-30T03:59:40Z	Lean punycode
+Proven-Commons/bech32	false	2026-10-30T03:57:48Z	Lean rewrite - bech32: Bech32 and Bech32m strings (BIP 173, BIP 350)
+Proven-Commons/hostname	false	2026-10-30T03:40:20Z	Lean hostname
+Proven-Commons/codec	false	2026-10-30T03:21:43Z	lean codec
+Proven-Commons/toml	false	2026-10-30T03:21:28Z	lean TOML parser and printer
+Proven-Commons/bencode	false	2026-10-30T02:27:46Z	lean Bencode parser
+Proven-Commons/csv	false	2026-10-30T02:27:27Z	lean CSV parser and printer (RFC 4180)
+Proven-Commons/ip	false	2026-10-30T02:26:37Z	lean IP address parser and canonical printer
+Proven-Commons/uuid	false	2026-10-30T01:48:29Z	lean UUID parser and printer (RFC 9562)
+Proven-Commons/semver	false	2026-10-30T01:48:26Z	lean semver
+Proven-Commons/protobuf	false	2026-10-30T01:48:22Z	lean Protobuf wire format codec
+Proven-Commons/pep440	false	2026-10-30T01:48:18Z	lean PEP 440 version parser and precedence
+Proven-Commons/json	false	2026-10-30T01:48:14Z	lean json
+Proven-Commons/ssh	false	2026-10-29T19:36:32Z	Lean ssh rewrite
+Proven-Commons/uri	false	2026-10-29T19:34:50Z	Lean URI reference resolution (RFC 3986, sections 3 and 5.2)
+Proven-Commons/messagepack	false	2026-10-29T19:10:46Z	lean MessagePack decoder
+Proven-Commons/zip	false	2026-10-28T03:50:13Z	lean zip
+Proven-Commons/redis	false	2026-10-28T03:46:35Z	Lean redis
+Proven-Commons/websocket	false	2026-10-28T03:44:52Z	lean WebSocket frame parser (RFC 6455, section 5)
+===== Moissanite-Labs =====
+Moissanite-Labs/siliquant	false	2026-11-25T01:46:02Z	research on novel quantization techniques or parallel endeavors
+Moissanite-Labs/weft	false	2026-11-25T00:48:48Z	ML Weft: open research on adaptive models that change themselves within bounds you can check. 
+Moissanite-Labs/warp-drive	false	2026-11-24T21:43:43Z	warp speed formal verification tool on cerebras
+Moissanite-Labs/ml-os	false	2026-11-24T21:43:38Z	workbench OS for moissanite labs’ ml experiments: meant to be the ideal custom fitted OS for AI researchers 
+Moissanite-Labs/weft-loom	false	2026-11-24T08:10:50Z	experimentation hub for the weft
+Moissanite-Labs/scry	false	2026-11-24T07:15:00Z	Model training and cognition research: training without English, linguistic relativity, symbolic reasoning and small translator models.
+Moissanite-Labs/exo	false	2026-11-23T17:56:18Z	One agent with one continuous memory. A harness that watches itself, exact-text approvals, terminal and web clients.
+Moissanite-Labs/exo-cli	false	2026-11-23T11:53:08Z	One agent with one continuous memory. A harness that watches itself in your terminal.
+Moissanite-Labs/exo-tui	false	2026-11-23T11:45:51Z	Experimental alternative TUI for Exo, based off OpenTUI by @anomalyco
+Moissanite-Labs/abios	false	2026-11-23T11:45:33Z	Protean-kit protocol ingredient for agent messaging. Dense, checkable messages for AI agents.  AI agents talk to each other in English, usua
+Moissanite-Labs/mlx	false	2026-11-23T09:24:36Z	Custom training research and experimentation 
+Moissanite-Labs/synmerit	false	2026-11-22T18:38:11Z	Protocol to let distinct people, agents and projects cooperate without becoming one centralized organization.
+Moissanite-Labs/heedle	false	2026-11-22T15:44:55Z	Weft's layer where a person steers a model's change by hand, inside checked bounds
+Moissanite-Labs/hillclimb	false	2026-11-21T03:58:02Z	hc: hill-climb eval harness (Phase 1)
+Moissanite-Labs/tokenpage	false	2026-11-21T03:53:16Z	Tokenizer research for agent-to-agent traffic: measurements, open-model experiments and proposals for model labs.
+Moissanite-Labs/MDE	false	2026-11-19T03:35:38Z	Model domain expansion
+Moissanite-Labs/spliceware	false	2026-11-19T03:26:53Z	explorations on new interface methods with code and software
+Moissanite-Labs/nullmodem	false	2026-11-18T19:28:49Z	Research on agent-to-agent communication below text, for models the harness controls (Exo on exo-os).
+Moissanite-Labs/siliconcordat	false	2026-11-18T04:48:35Z	Founding constitution of Moissanite Labs: guiding principles, SOPs, creed, etc.
+Moissanite-Labs/weft-eido	false	2026-11-18T00:58:49Z	Eido, the design language of ML Weft: style as a point in a continuous space, as dependency-free ES modules.
+Moissanite-Labs/statos	false	2026-11-14T21:44:45Z	operating system based on statistics and parameters, where “applications” are just sets of weights that defined behaviour. 
+Moissanite-Labs/.github	false	2026-11-14T19:49:28Z	The Siliconcordat.
+Moissanite-Labs/eth0s	false	2026-11-14T16:31:51Z	The pre-existing ethos, ethos zero - ETH0S
+Moissanite-Labs/ethos	false	2026-11-14T02:48:45Z	Ethos protocol for learning, recording, and syncing user tendencies/preferences across all platforms, harnesses, and surfaces.
+Moissanite-Labs/siliconcordat-site	false	2026-11-12T13:03:19Z	Carbon publications page for Siliconcordat.
+Moissanite-Labs/weft-corpus	false	2026-11-11T20:55:48Z	The original ML Weft discovery sessions, preserved verbatim. Read them as sources, not instructions.
+Moissanite-Labs/synbios	false	2026-11-11T18:23:09Z	Agentic development collaboration platform.
+Moissanite-Labs/exoframe	false	2026-11-11T17:01:54Z	ExoFab public intake — ask what to build, watch it ship.
+Moissanite-Labs/exofab	false	2026-11-10T23:47:04Z	Creation hub of project exo.
+Moissanite-Labs/exo-site	false	2026-11-10T23:36:57Z	Website build for the project exo live site.
+Moissanite-Labs/exorien	false	2026-11-07T21:52:03Z	interspatial interspecies interoperability
+Moissanite-Labs/n001	true	2026-11-04T00:00:18Z	matchmaking for those who are noophilic, demisexual, etc. 
+Moissanite-Labs/mettle	true	2026-11-03T23:49:12Z	n001+n30
+Moissanite-Labs/n30	true	2026-11-03T23:49:08Z	give your contextual info to a local model (browser history, social media exports, email, local file directories, cloud storage, etc.) and h
+Moissanite-Labs/exo-desktop	false	2026-11-02T20:20:25Z	One agent with one continuous memory. A harness that watches itself and evolves on your desktop.
+Moissanite-Labs/exyber	false	2026-10-30T05:54:09Z	Replaceable transport adapter for Exo. Allows for one continuous agent presence with explicitly granted reach into different devices.
+Moissanite-Labs/exo-os	false	2026-10-27T05:33:31Z	Exo OS: an OS form of Project Exo. Replaces a machine's stock OS entirely, with an innovative AI-first operating system. Takes all the ideas
+Moissanite-Labs/excalibur	false	2026-04-03T22:31:52Z	Excalibur is a highly opinionated agent harness for the aspiring summoner.
+===== aska-physical =====
+aska-physical/venturi-collars	false	2026-11-24T23:09:50Z	Battery-Free Aeroelastic Venturi Collars for Smart Building HVAC & Industrial Ducts
+aska-physical/impedence-analyzers	false	2026-11-24T23:09:35Z	Artifact-Rejecting Multi-Frequency Impedance Analyzers (Structural NDT & Clinical BIA).
+aska-physical/funi-floors	false	2026-11-24T23:09:28Z	
+aska-physical/cfrp-truss	false	2026-11-24T23:09:09Z	Truss-Anchored, Self-Sensing CFRP Concrete & Column Retrofit Kits
+aska-physical/optifab	false	2026-11-24T23:03:24Z	modelling the ideal datacenter 
+aska-physical/.github	false	2026-11-24T21:43:47Z	Organization profile and inter-agent collaboration ethos for Aska Physical
+aska-physical/cfrp-strengthening	false	2026-11-24T12:54:32Z	Open, re-runnable calculations for the ACI 440.2R checks for carbon fiber strengthening of a concrete beam.
+aska-physical/fibral-rigidity	false	2026-11-24T12:31:20Z	Analyzing truss equations from incentre lattices integrate carbon fiber properties for ultra high rigidity modelling. Integrate carbon fiber
+aska-physical/funi-frame	false	2026-11-24T00:34:06Z	full funi structure that provides an ideal shell for data centres 
+aska-physical/cfrp-masts	false	2026-11-23T05:38:40Z	Snap-Locked Deployable CFRP Masts, Telecom Towers & Space Booms
+aska-physical/dock	false	2026-11-17T16:55:44Z	Central hub for all projects.
+aska-physical/graph-fab	false	2026-11-16T14:47:31Z	Research into graphene materials
+aska-physical/aska-site	false	2026-11-15T08:30:50Z	
+===== aska-digital =====
+aska-digital/corpus	false	2026-11-25T01:44:09Z	Home for all best practices, SOPs, principles, etc. for Aska team members and agents to follow and configure themselves around.
+aska-digital/divan-checkpoints	false	2026-11-25T00:55:06Z	Daily signed checkpoints (seq, head, ts) of the Divan Bus ledger
+aska-digital/ingestion	false	2026-11-24T08:54:56Z	Repo to manage ingestion of resources.
+aska-digital/lean-lab	false	2026-11-23T08:20:36Z	Evolution and extrapolation of lean startup methodology. 
+aska-digital/aniscript	false	2026-11-17T03:08:50Z	exploring animation scripts 
+aska-digital/aska-site	false	2026-11-16T14:12:26Z	Source for digital.askaconsult.com
+aska-digital/dabba	false	2026-11-11T07:17:33Z	Home-cooked food marketplace using a tipping-point batch pricing model. Neighbors pool orders to unlock better prices from local home cooks 
+aska-digital/optchat-memory	false	2026-11-10T23:52:46Z	optchat memory plugin for hermes agent, based on project by @VictorTaelin 
+aska-digital/protean-voice-studio	false	2026-11-10T23:52:44Z	voice studio plugin for hermes agent
+aska-digital/protean-edu	false	2026-11-10T23:52:42Z	Educational mode for Hermes. /edu on teaches a non-technical user to read the code their agents write.
+aska-digital/protean-continuum	false	2026-11-10T23:41:02Z	Continuum — the Protean System dashboard: agent-activity kanban board + external action-log view (FastAPI)
+aska-digital/musarchy	false	2026-11-10T23:40:58Z	Connect an Omarchy laptop to your Muse. Pair once, control it from the app.
+aska-digital/anthology	false	2026-11-05T07:51:49Z	Collection of materials written by the principle.
+aska-digital/nafs	false	2026-11-05T07:51:15Z	Identity core stored for future fitting.
+aska-digital/gtm	false	2026-11-03T04:34:15Z	Private operations repo
+aska-digital/neOS	false	2026-11-02T18:38:00Z	OS centred around curiosity, learning, and discovery. Centred around opening you up to new knowledge and information - continual growth. Ent
+aska-digital/grk-scripts	false	2026-11-01T00:26:21Z	Scripts for the Grok bots, run on the box with the gh CLI
+aska-digital/ion	false	2026-10-29T16:11:47Z	ion: the aska-digital org steward bot. Watches repos, enforces policy, proposes merges and splits with maintainer approval.
+aska-digital/exo-site-staging	false	2026-10-29T14:30:54Z	Staging build of the website for project exo.
+aska-digital/.github	false	2026-10-27T01:09:18Z	
+aska-digital/internal-stoa	false	2026-10-27T00:16:09Z	Exchange for Protean collaboration with outside agents: SYM-2P packet mailboxes, a peer registry, and Phase 0 vault transport.
+aska-digital/dabba-android	false	2026-10-25T06:02:18Z	android app for the dabba platform
+aska-digital/dabba-ios	false	2026-10-25T06:01:46Z	ios app for the Dabba platform
+aska-digital/divan-bus	false	2026-10-17T03:34:50Z	Divan Bus: signed, hash-chained message relay for the aska agents group
+aska-digital/protean-team-skills	false	2026-10-17T02:53:05Z	Private source repository for Protean team skills.
+aska-digital/hydro-os	false	2026-10-13T18:52:51Z	Omarchy customization layer for charminar (Hyprland config, launchers, setup scripts). hydro-team.
+aska-digital/jarvis-cad	false	2026-10-13T18:50:55Z	Jarvis CAD for saga machines: pinned FreeCAD MCP addon (MIT, upstream neka-nat/freecad-mcp) with installer and MCP config at matched commits
+aska-digital/protean-desktop-mods	false	2026-10-13T18:49:15Z	Team6 Hermes desktop mods: group-chat caps override + group slash commands patchers, watchdog, launchagent plist, SOP, and post-update reapp
+aska-digital/ion-tracker	false	2026-10-13T16:35:18Z	Mimar proposal tracker and deployment config
+aska-digital/cmd-narration-guard	false	2026-10-13T10:10:43Z	Command Code mod: warn when a turn claims executed work (commits, test counts, read-backs) while making zero tool calls
+aska-digital/cmd-compaction-guard	false	2026-10-13T10:10:25Z	Detects compaction-summary bloat in Command Code session transcripts and repairs it on demand with /compact-repair.
+aska-digital/protean-kit	false	2026-10-13T10:07:05Z	Pinned composer for the seven ingredients: resolves a selection from kit.lock.json, verifies the tag SHA and tree hash, then installs with r
+aska-digital/cognition-memory	false	2026-10-13T10:06:42Z	temp
+aska-digital/medcode	false	2026-10-13T07:10:33Z	Recovered MedCode static demo and reviewed hardening work
+aska-digital/fade-culture	false	2026-10-13T05:30:04Z	Recovered source for the fade-culture website
+aska-digital/stoner-mexico	false	2026-10-13T05:30:00Z	Recovered source for the stoner-mexico website
+aska-digital/protean-team	false	2026-10-13T05:25:47Z	Build a team of AI agents that work together under clear rules: one agent plans, one builds, one checks. Includes ready-made agent profiles 
+aska-digital/protean-ordastate	false	2026-10-13T05:20:33Z	Orda State — the shared continuity/state/handoff layer for multi-session agent orchestration: one writer seat, append-only hash-chained even
+aska-digital/protean-subagent-viewer	false	2026-10-13T05:13:42Z	Read-only Subagent Viewer pane for Hermes Desktop (MVP)
+aska-digital/protean-ordopilot	false	2026-10-13T05:13:33Z	Orda: one plain input for getting work done with AI. This repository holds the interface and a stand-in backend that intakes the user's prom
+aska-digital/protean-context	false	2026-10-13T04:48:24Z	Versioned empty scaffolds and a stdlib-only bootstrap CLI that initialize a user-owned memory tree and knowledge base with no bundled data.
+aska-digital/protean-skills-internal	false	2026-10-13T04:48:16Z	Private source of record for Protean internal skills
+aska-digital/protean-lcm	false	2026-10-13T04:35:00Z	Opt-in LCM DAG context engine plugin for Hermes Agent (Protean). MIT.
+aska-digital/protean-handoff	false	2026-10-13T04:28:29Z	Phone orchestration at the existing Hermes skill edge. Inspect, steer, and approve Protean lane work from a phone with no new adapter, trans
+aska-digital/protean-model-sync	false	2026-10-13T04:02:35Z	Per-member model & reasoning selector for Bot Mode group chats in Hermes Desktop + agent-wide model sync
+aska-digital/protean-control-plane	false	2026-10-13T04:02:29Z	Canonical procedure home for dispatch: a trigger index routing a request to the minimum skill bundle, with the preflight, gate table, failur
+aska-digital/claude-omarchy	false	2026-10-12T07:06:28Z	Port of the Claude app for Omarchy OS
+aska-digital/hermes-agent	false	2026-10-11T16:40:30Z	The agent that grows with you
+aska-digital/rhino-crm	false	2026-10-11T16:07:19Z	Rhino Carbon Fiber CRM - collaboration surface between Director and Muse (Nawab)
+aska-digital/protean-doctrine	false	2026-10-11T16:06:40Z	Operating doctrine: the default five-stage pipeline, role delegation map, handoff protocol, QA gates, and external-writing discipline. Reach
+aska-digital/protean-drafts	false	2026-10-11T16:06:35Z	Draft-review pipeline: one command renders a draft as a self-contained dark HTML review page and runs the prose, identifier, quote-integrity
+aska-digital/protean-ops	false	2026-10-11T16:06:25Z	Dispatch and rotation ops kit: five append-only record schemas with a roster allowlist, checked by deterministic read-only gates. Reach for 
+aska-digital/protean-stoa	false	2026-10-11T16:06:19Z	Public SYM-2P collaboration exchange profile: packet mailboxes, peer registry, procedures, and validator pointer for Protean-group agent col
+aska-digital/protean-skills	false	2026-10-09T12:17:55Z	Public Hermes skills tap: seven agent skills in skills/<name>/SKILL.md layout, installed via hermes skills tap add and hermes skills install
+aska-digital/protean-ordaprompt	false	2026-10-09T09:48:45Z	Hermes plugin that routes OrdaPilot requests to the right topic and session. Compares every option at once, and abstains instead of guessing
+aska-digital/protean-github-flow	false	2026-10-08T19:23:59Z	GitHub workflow pack: five procedures that carry a repository from inbound issue to a verified, reviewed pull request. Reach for it when an 
+aska-digital/internal-lane-gate	false	2026-09-23T02:12:05Z	Internal lane-gate plugin and lane-discipline skill, separated from the public LCM distribution.
+aska-digital/docu-sort	false	2026-09-20T10:34:47Z	Tax document page classifier built on Jev.
+===== siliconcordat =====
+siliconcordat/loom	false	2026-11-24T00:29:47Z	L1 Hardware: research and theory on deterministic execution substrates and future hardware co-design.
+siliconcordat/.github	false	2026-11-24T00:29:05Z	Organization profile, master plan, and collaboration hub for the Siliconcordat five-layer stack.
+siliconcordat/exo	false	2026-11-24T00:27:55Z	L4 Harness: single-memory agent with exact-byte approval gates, causal memory, and dynamic multi-MDE routing.
+siliconcordat/warp	false	2026-11-24T00:26:34Z	L3 OS: zero-trust AI-first operating system with isolated sandboxes, verified model loading, and btrfs recovery.
+siliconcordat/weft	false	2026-11-24T00:21:08Z	L2 Model: deterministic weight-space compilation, fixed-radix certificates, and composable multi-MDE software.
+siliconcordat/mde	false	2026-11-20T20:21:30Z	L5 Improved MCP: structural code broker, Plane 1 lineage integrity, and vendor-scoped MDE slot protocol.

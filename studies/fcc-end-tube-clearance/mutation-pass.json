@@ -1,0 +1,219 @@
+{
+  "verdict": "PASS",
+  "passed": true,
+  "target": "studies/fcc-end-tube-clearance/fcc_end_tube_clearance.py",
+  "test_cmd": "python3 -I -B test_fcc_end_tube_clearance_r5.py",
+  "self_check_mode": false,
+  "null_mutant": "passed",
+  "local_wrappers_detected": [
+    "need"
+  ],
+  "imported_wrappers_detected": [],
+  "explicit_guards": [
+    "need"
+  ],
+  "covered_lines": [
+    30,
+    93,
+    216,
+    217,
+    237,
+    250,
+    251,
+    321,
+    322,
+    323,
+    325,
+    326
+  ],
+  "mutants_discovered": 20,
+  "truncated": false,
+  "total_mutants": 20,
+  "killed": 20,
+  "survived": 0,
+  "kill_rate_pct": 100.0,
+  "survivors": [],
+  "results": [
+    {
+      "id": "M001",
+      "kind": "guard_if_reject",
+      "line": 30,
+      "original": "if not ok:",
+      "mutated": "if False:",
+      "returncode": 1,
+      "status": "KILLED"
+    },
+    {
+      "id": "M002",
+      "kind": "boundary_cmp",
+      "line": 93,
+      "original": "dot(sub(b, a), sub(b, a)) != length2",
+      "mutated": "dot(sub(b, a), sub(b, a)) == length2",
+      "returncode": 1,
+      "status": "KILLED"
+    },
+    {
+      "id": "M003",
+      "kind": "guard_if_reject",
+      "line": 93,
+      "original": "if dot(sub(b, a), sub(b, a)) != length2:",
+      "mutated": "if False:",
+      "returncode": 1,
+      "status": "KILLED"
+    },
+    {
+      "id": "M004",
+      "kind": "guard_require_call",
+      "line": 216,
+      "original": "need(best is not None, ...)",
+      "mutated": "need(True, ...)",
+      "returncode": 1,
+      "status": "KILLED"
+    },
+    {
+      "id": "M005",
+      "kind": "boundary_cmp_require",
+      "line": 217,
+      "original": "best > 0",
+      "mutated": "best >= 0",
+      "returncode": 1,
+      "status": "KILLED"
+    },
+    {
+      "id": "M006",
+      "kind": "guard_require_call",
+      "line": 217,
+      "original": "need(best > 0, ...)",
+      "mutated": "need(True, ...)",
+      "returncode": 1,
+      "status": "KILLED"
+    },
+    {
+      "id": "M007",
+      "kind": "guard_require_call",
+      "line": 237,
+      "original": "need(best is not None, ...)",
+      "mutated": "need(True, ...)",
+      "returncode": 1,
+      "status": "KILLED"
+    },
+    {
+      "id": "M008",
+      "kind": "boundary_cmp_require",
+      "line": 250,
+      "original": "left > 0",
+      "mutated": "left >= 0",
+      "returncode": 1,
+      "status": "KILLED"
+    },
+    {
+      "id": "M009",
+      "kind": "guard_require_call",
+      "line": 250,
+      "original": "need(left > 0, ...)",
+      "mutated": "need(True, ...)",
+      "returncode": 1,
+      "status": "KILLED"
+    },
+    {
+      "id": "M010",
+      "kind": "boundary_cmp_require",
+      "line": 251,
+      "original": "left * left > 32 * found_d2",
+      "mutated": "left * left >= 32 * found_d2",
+      "returncode": 1,
+      "status": "KILLED"
+    },
+    {
+      "id": "M011",
+      "kind": "guard_require_call",
+      "line": 251,
+      "original": "need(left * left > 32 * found_d2, ...)",
+      "mutated": "need(True, ...)",
+      "returncode": 1,
+      "status": "KILLED"
+    },
+    {
+      "id": "M012",
+      "kind": "boundary_cmp_require",
+      "line": 321,
+      "original": "len(bars) == 15",
+      "mutated": "len(bars) != 15",
+      "returncode": 1,
+      "status": "KILLED"
+    },
+    {
+      "id": "M013",
+      "kind": "guard_require_call",
+      "line": 321,
+      "original": "need(len(bars) == 15, ...)",
+      "mutated": "need(True, ...)",
+      "returncode": 1,
+      "status": "KILLED"
+    },
+    {
+      "id": "M014",
+      "kind": "guard_require_call",
+      "line": 322,
+      "original": "need(bars_exact(dots, rows, bars), ...)",
+      "mutated": "need(True, ...)",
+      "returncode": 1,
+      "status": "KILLED"
+    },
+    {
+      "id": "M015",
+      "kind": "boundary_cmp_require",
+      "line": 323,
+      "original": "det3(rows) == 12",
+      "mutated": "det3(rows) != 12",
+      "returncode": 1,
+      "status": "KILLED"
+    },
+    {
+      "id": "M016",
+      "kind": "guard_require_call",
+      "line": 323,
+      "original": "need(det3(rows) == 12, ...)",
+      "mutated": "need(True, ...)",
+      "returncode": 1,
+      "status": "KILLED"
+    },
+    {
+      "id": "M017",
+      "kind": "boundary_cmp_require",
+      "line": 325,
+      "original": "ball_min >= 2",
+      "mutated": "ball_min > 2",
+      "returncode": 1,
+      "status": "KILLED"
+    },
+    {
+      "id": "M018",
+      "kind": "guard_require_call",
+      "line": 325,
+      "original": "need(ball_min >= 2, ...)",
+      "mutated": "need(True, ...)",
+      "returncode": 1,
+      "status": "KILLED"
+    },
+    {
+      "id": "M019",
+      "kind": "boundary_cmp_require",
+      "line": 326,
+      "original": "degree == [12, 12, 12, 12, 12, 12]",
+      "mutated": "degree != [12, 12, 12, 12, 12, 12]",
+      "returncode": 1,
+      "status": "KILLED"
+    },
+    {
+      "id": "M020",
+      "kind": "guard_require_call",
+      "line": 326,
+      "original": "need(degree == [12, 12, 12, 12, 12, 12], ...)",
+      "mutated": "need(True, ...)",
+      "returncode": 1,
+      "status": "KILLED"
+    }
+  ],
+  "note": "Target path rewritten from the session temp directory. Counts, lines, and return codes are the tool output."
+}
