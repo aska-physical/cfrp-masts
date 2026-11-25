@@ -20,6 +20,14 @@
     {
       "control": "fixed_metal_octet_matches_incentre_folding_compaction",
       "rejected": true
+    },
+    {
+      "control": "euler_only_22p8GPa_stress_is_carryable_without_kink_band_cap",
+      "rejected": true
+    },
+    {
+      "control": "ultra_thin_tube_eta099_retains_uncapped_euler_gain_past_sp8007_shell_limit",
+      "rejected": true
     }
   ],
   "repository": "aska-physical/cfrp-masts",
@@ -35,8 +43,15 @@
     "cable_pretension_window": {
       "T_pre_min_N": 17.678,
       "eps_pre_min_microstrain": 0.71,
-      "local_tube_buckling_N": 2781767.05,
-      "safety_factor_at_3x_pretension": 52453.5
+      "governing_compressive_mode": "kink_band_compression",
+      "local_tube_allowable_stress_MPa": 350.0,
+      "local_tube_buckling_N": 42614.21,
+      "local_tube_euler_elastic_N": 2781767.05,
+      "local_tube_euler_stress_GPa": 22.85,
+      "local_tube_kink_band_N": 42614.21,
+      "local_tube_sp8007_shell_N": 931177.43,
+      "safety_factor_at_3x_pretension": 803.54,
+      "sp8007_knockdown_gamma": 0.8881
     },
     "k13d2u_snap_locked_boom": {
       "EI_Nm2": 586069.1,
