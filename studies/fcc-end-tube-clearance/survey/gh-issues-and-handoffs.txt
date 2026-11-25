@@ -1,0 +1,145 @@
+===== dock#8 =====
+Plan for passing lattice results into the hardware repos
+The lattice proofs and the hardware repositories describe the same truss. A claim moves from one side to the other only when a checker on the receiving side fails a bad case and passes the real case. A model number stays a model number until a bench measurement exists. A new repository waits until a checker produces a result that no current repository can hold.
+
+## What is already on each side
+
+The carbon-fiber truss repository, fibral-rigidity, carries closed forms for the bridged cross-polytope cell. At equal area in three dimensions the bulk modulus is 2(3 + 2√2)/15 of the bound you get when every bar stretches with the volume change and no joint moves. The area ratio √2 times (n − 1) meets that bound for every strut length between 0 and 1.
+
+The uniaxial optimum is 2√6 / 3. SymPy checks those identities for dimensions 2 through 7.
+
+The proof file limits the claim to small-strain pin joints. It says a real joint needs a separate check before a hardware claim.
+
+The organization profile states cooling, carbon, stiffness, and harvested-power figures as product advantages. Those figures are outputs of the product checkers. No bench measurement is attached. The open issue on this repository titled Fuse the two Docks says its rig numbers are presented, not independently checked. graph-fab has a readme and no checker.
+
+## A re-run on 2026-11-20
+
+`python3 verify.py` in fibral-rigidity exits 1 on a clean tree. The closed-form checks passed. The certificate comparison failed. Two fields differ from the committed file, both smaller than 1e-15. The committed file pins rounding error from one machine.
+
+The six rows that must reject a bad case store the literal `rejected: true`. The predicates are `assert` statements. Under `python3 -O`, a planted shear stiffness of 1 still returns `rejected: true` for the control that says an unbraced cell has no shear. The same call raises `AssertionError` when asserts are left on. The receipt does not compute the rejection from the measurement.
+
+## Threads
+
+| Id | Question | Home | Done when |
+| --- | --- | --- | --- |
+| P1 | Store a declared bound in the fibral-rigidity certificate instead of raw rounding error, and make each rejection follow from its predicate under `python3 -O`. | fibral-rigidity | A clean tree passes on both interpreters, and a planted shear stiffness exits non-zero under `python3 -O`. |
+| P2 | Find a small truss that is stiff at all four corners of a two-length box and loose at an interior point. Record the example, or record the search. | fibral-rigidity, then cfrp-masts if a fold uses that box | The example is a rejecting control, or the note says what was tried. |
+| P3 | Run an empty receipt and a change of one part in a million through the other product checkers. Skip a defect an open review already states. | one issue per product repo before any patch | A table of pass or fail per checker. |
+| P4 | Mark each profile advantage as model, checker, or measured. | this issue | The table is in this body. The profile text stays until a person signs a change. |
+| P5 | On the impedance checker, name the parameters a fit can move. Show one injected defect inside that span that the residual misses, and one outside it that the residual catches. | impedence-analyzers | Both cases are in the checker, or the note says the split is already there. |
+| P6 | Leave graphene alone until a checker exists. | graph-fab | No repository and no claim before `verify.py` returns a result. |
+
+## Profile figures, first sort
+
+| Figure on the profile | Where it is computed | Status on 2026-11-20 |
+| --- | --- | --- |
+| 22.29% bulk loss, area ratio 2√2, uniaxial gain over the octet truss | fibral-rigidity | Closed forms passed on this re-run. Certificate comparison failed. Not a bench measurement. |
+| Floor carbon and vibration figures | funi-floors | Not re-run. |
+| Shell cooling and power figures | funi-frame | Not re-run. |
+| Beam flexural gain and bondline sweep | cfrp-truss | Not re-run. |
+| Mast stiffness and thermal drift | cfrp-masts | Checker passed on a clean re-run, including under `python3 -O`. The rejection flags are the measurements. Not a bench measurement. |
+| Duct harvest power and pressure loss | venturi-collars | Not re-run. The profile already records a pure-PVDF harvest that was too small to use. |
+| Sweep speed and patch constant | impedence-analyzers | Not re-run. |
+
+## What this plan does not do
+
+Private spectrometry and clinical body-composition data stay in their own review. Nothing from that work is posted here. Open seal drafts on the proof repositories stay for a different reviewer. This plan does not merge them. The checkboxes on the fusion issue stay with the human principal.
+
+## How the record stays current
+
+Edit this body when a thread changes state. Add a dated comment when a checker returns a result. One issue in the target repository before any code change. One pull request per change. The author does not merge. A person signs any public claim that a product beats a market baseline.
+
+## Results on 2026-11-20
+
+The carbon-fiber checker on main still exits 1 on a clean re-run. The closed forms passed. A draft records a bound of 1e-9 and raises the rejection from the measurement. `python3` and `python3 -O` pass on that branch. A planted shear stiffness of 1 raises `CheckFailure` under `python3 -O`. Not merged.
+
+https://github.com/aska-physical/fibral-rigidity/pull/3
+
+A second draft checks a two-bar length box. The four corners have a stable shape. The interior lengths 0.9 and 1.1 do not, because they sum to the pin span and the transverse stiffness is zero. Not merged. The bulk-modulus identity is unchanged.
+
+https://github.com/aska-physical/fibral-rigidity/pull/5
+
+## Ledger
+
+New ground, counted: none. A result counts when it is merged and a second reviewer has looked.
+
+Promising, re-run here: the closed forms stand. The certificate comparison on main does not. The rejection flag on main does not follow the measurement when asserts are stripped. The length-box example holds on its own checker.
+
+Open drafts: the bound check and the length box. The author does not merge them.
+
+Being pulled next: P3 on the checkers that were not re-run. cfrp-masts already passes, and its rejection flags are the measurements. P5 and P6 stay queued.
+
+> Automated posting by agentic team with human oversight.
+
+===== masts#1 =====
+Per HANDOFF.md: couple the exact continuous m=1 folding path from Foundation-0/incentre-lattices with finite tube outer radius r_out (eta=0.80) and design compliant PEEK/Ti/CFRP node collars so stowed compaction reaches >3.0x without wall contact. (Prepared by Gemini for @abu-aska)
+===== fibral#4 =====
+Two elastic bars join pins a distance 2 apart. A stable shape is an equilibrium whose Hessian is positive definite.
+
+The natural-length box runs from 0.7 to 1.3 and from 0.9 to 1.5. Each of the four corners has a stable shape. The interior pair 0.9 and 1.1 does not. Those lengths sum to the pin span, so the bars lie on one line and the transverse stiffness is zero.
+
+Off that line the bar forces cannot balance. They are not collinear, and circles of radii 0.9 and 1.1 centered 2 apart meet at only the flat point.
+
+A check that looked only at the corners would accept a length pair with no stable shape.
+
+This does not change the bulk-modulus identity of the cross-polytope cell. That identity holds for every strut length once the area ratio is fixed.
+
+The check is `length_box.py`. It passes under `python3` and under `python3 -O`.
+
+Parent plan: https://github.com/aska-physical/dock/issues/8
+
+> Automated posting by agentic team with human oversight.
+
+===== fold-end tree =====
+PROOF.md
+certificate.json
+exact_end.py
+verify.py
+===== masts tree verify head =====
+8529
+===== proposals headings =====
+1:# Proposals
+20:## 1. Plant sense: two sensors and a frame emitter
+37:## 2. Load control with an energy reading
+54:## 3. A model as the proposer
+78:## 4. Structural genes
+96:## 5. Specification review for the gate
+111:## 6. Signed ledger and command channel
+125:## 7. A first fabrication cell under the gate
+140:## 8. A network of campuses
+===== funi-floors handoff =====
+# Inter-Agent Handoff — `aska-physical/funi-floors` (`v0.1.0`)
+
+Prepared per the Aska group ethos (*maximal autonomy and agency; capture every computation, decision, and negative finding so the next agent builds forward without re-deriving*).
+
+## 1. What Was Learned, Decided, and Verified
+
+- **Why academic funicular vaults stalled—and how `funi-floors` breaks all four commercial barriers (`VERIFIED`):**
+  1. **Formwork economics:** Replaces disposable binder-jet 3D-printed sand molds (`ETH HiLo` / `SBE25 Zurich`) with stackable `3.0 m x 9.0 m` (`3 mm` mineral-basalt/carbon) stay-in-place trough pans cutting concrete volume by **`76.11%`** (`74.07 mm` eq. vs. `310 mm` PT slab) and dead mass by **`73.77%`** (`195.12` vs. `744.0 kg/m²`).
+  2. **Elastic arch-tie crown cracking (`SymPy Theorem 1 + Must-fail #1`):** Castigliano compatibility `H = (H_rigid + chi*P_SMA)/(1 + chi)` proves a passive GFRP bottom tie stretches enough to induce `188.79 MPa` parasitic crown tension (`>> 4.38 MPa` rupture modulus). Heating `Fe-Mn-Si` memory-steel strips (`4 x 980 mm²`) to `175 °C` (`0.323 kWh/m²` = `8.71 kWh` per `27 m²` cassette) generates **`423.47 MPa` recovery prestress**, trimming crown residual moment to `4.12 kN·m` (`f_c = 13.67 <= 22.50 MPa`).
+  3. **In-rib MEP integration (`SymPy Theorem 2 + Must-fail #2`):** Unbraced `200 mm` rib holes fail at `22.50 kN < 185.60 kN` ULS shear; framing octagonal apertures with `45°` Torayca T1100G chords lifts capacity to **`373.48 kN`**, saving **`280 mm` per floor** (`+1 bonus story per 12 levels`).
+  4. **Lightweight floor vibration paradox (`SymPy Theorem 3 + Must-fail #3`):** Under `AISC Design Guide 11`, `d(ln a_p)/dm > 0` iff `f_n > 2/0.35 = 5.7143 Hz`. Passive cracked shells drop to `3.261 Hz` (`a_p/g = 2.42% > 0.50%`, `FAIL`), whereas two-way shear-keyed active `funi-floors` cassettes reach **`f_n = 8.624 Hz >= 8.0 Hz`** and **`a_p/g = 0.308% <= 0.50%` (`PASS`)**.
+  5. **Flush-ceiling `313 psf` (`15 kPa`) AI data-center punching collar (`Must-fails #4–#5`):** The funicular vault naturally deepens from `115 mm` at midspan to **`380 mm` (`d_eff = 335 mm`) at column corners** with a flat ceiling; `Fe-SMA` radial clamping (`f_pc = 3.8 MPa`) + `45°` `cfrp-truss` dowels (`V_p = 480 kN`) deliver `ACI 318M-19 §22.6.5.2` **`phi*V_n = 2,756.4 kN >= 2,208.0 kN` (`80.11%` utilization)** with **zero drop panels**.
+  6. **120-min `ISO 834` fire crossover (`Must-fail #6`):** `20 mm`-cover epoxy CFRP hits `840.2 °C >> T_g = 82 °C` (`345.6 < 1,172.0 kN`, `FAIL`); grouting `Fe-SMA + end-locked T1100G` in inorganic mortar behind mineral SIP board (`427.6 °C` at `120 min`) retains **`3,902.95 kN >= 1,171.96 kN` (`3.33x` fire margin)**.
+
+## 2. Where Everything Lives Now
+
+- [`verify.py`](verify.py) (`v0.1.0`) — SymPy symbolic theorems + 6-domain deterministic solver + **10 must-fail controls**.
+- [`results/certificate.json`](results/certificate.json) (`v0.1.0`) — Canonical machine-verified outputs.
+- Integrated `aska-physical` stack: [`fibral-rigidity`](https://github.com/aska-physical/fibral-rigidity), [`cfrp-truss`](https://github.com/aska-physical/cfrp-truss), [`venturi-collars`](https://github.com/aska-physical/venturi-collars), and [`impedence-analyzers`](https://github.com/aska-physical/impedence-analyzers).
+
+## 3. Next-Agent Build Queue (Ready to Claim)
+
+1. **Issue #1 — Asymmetric half-span checkerboard live-load (`15 kPa` / `0 kPa`) arch snap-through & inter-cassette longitudinal shear-key sizing.**
+2. **Issue #2 — Coupled seismic diaphragm in-plane chord & `ACI 318 §18.14.5` `2.0%` interstory drift punching-rotation compatibility.**
+3. **Issue #3 — Nested thermoforming die geometry (`>= 6 deg` draft for 25-high flatbed stacking) & 10-to-30-story column/pile cost cascade model.**
+===== fibral handoff =====
+# Handoff
+
+2026-11-20. A clean `python3 verify.py` exited 1. The closed forms passed. The certificate stored raw residuals near 1e-16, and a second evaluation produced different digits below 1e-15.
+
+The rejection rows were the literal `rejected: true`, guarded by `assert`. Under `python3 -O`, a planted shear stiffness of 1 still returned `rejected: true`.
+
+Checks now raise through `require`, which `python3 -O` does not remove. The certificate records whether the numerical discrepancy is under 1e-9. The run still rejects a discrepancy of 1e-11 or more. Do not put the raw residual back into the certificate.
+
+The certificate still names the repository Foundation-0/fibral-rigidity.

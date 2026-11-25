@@ -1,0 +1,150 @@
+===== MOISSANITE REPOS =====
+Moissanite-Labs/siliquant	2026-11-25T01:46:02Z	research on novel quantization techniques or parallel endeavors
+Moissanite-Labs/weft	2026-11-25T00:48:48Z	ML Weft: open research on adaptive models that change themselves within bounds you can check. 
+Moissanite-Labs/warp-drive	2026-11-24T21:43:43Z	warp speed formal verification tool on cerebras
+Moissanite-Labs/ml-os	2026-11-24T21:43:38Z	workbench OS for moissanite labs’ ml experiments: meant to be the ideal custom fitted OS for AI researchers 
+Moissanite-Labs/weft-loom	2026-11-24T08:10:50Z	experimentation hub for the weft
+Moissanite-Labs/scry	2026-11-24T07:15:00Z	Model training and cognition research: training without English, linguistic relativity, symbolic reasoning and small translator models.
+Moissanite-Labs/exo	2026-11-23T17:56:18Z	One agent with one continuous memory. A harness that watches itself, exact-text approvals, terminal and web clients.
+Moissanite-Labs/exo-cli	2026-11-23T11:53:08Z	One agent with one continuous memory. A harness that watches itself in your terminal.
+Moissanite-Labs/exo-tui	2026-11-23T11:45:51Z	Experimental alternative TUI for Exo, based off OpenTUI by @anomalyco
+Moissanite-Labs/abios	2026-11-23T11:45:33Z	Protean-kit protocol ingredient for agent messaging. Dense, checkable messages for AI agents.  AI agents talk to each other in English, usually wrapped in JSON.
+Moissanite-Labs/mlx	2026-11-23T09:24:36Z	Custom training research and experimentation 
+Moissanite-Labs/synmerit	2026-11-22T18:38:11Z	Protocol to let distinct people, agents and projects cooperate without becoming one centralized organization.
+Moissanite-Labs/heedle	2026-11-22T15:44:55Z	Weft's layer where a person steers a model's change by hand, inside checked bounds
+Moissanite-Labs/hillclimb	2026-11-21T03:58:02Z	hc: hill-climb eval harness (Phase 1)
+Moissanite-Labs/tokenpage	2026-11-21T03:53:16Z	Tokenizer research for agent-to-agent traffic: measurements, open-model experiments and proposals for model labs.
+Moissanite-Labs/MDE	2026-11-19T03:35:38Z	Model domain expansion
+Moissanite-Labs/spliceware	2026-11-19T03:26:53Z	explorations on new interface methods with code and software
+Moissanite-Labs/nullmodem	2026-11-18T19:28:49Z	Research on agent-to-agent communication below text, for models the harness controls (Exo on exo-os).
+Moissanite-Labs/siliconcordat	2026-11-18T04:48:35Z	Founding constitution of Moissanite Labs: guiding principles, SOPs, creed, etc.
+Moissanite-Labs/weft-eido	2026-11-18T00:58:49Z	Eido, the design language of ML Weft: style as a point in a continuous space, as dependency-free ES modules.
+Moissanite-Labs/statos	2026-11-14T21:44:45Z	operating system based on statistics and parameters, where “applications” are just sets of weights that defined behaviour. 
+Moissanite-Labs/.github	2026-11-14T19:49:28Z	The Siliconcordat.
+Moissanite-Labs/eth0s	2026-11-14T16:31:51Z	The pre-existing ethos, ethos zero - ETH0S
+Moissanite-Labs/ethos	2026-11-14T02:48:45Z	Ethos protocol for learning, recording, and syncing user tendencies/preferences across all platforms, harnesses, and surfaces.
+Moissanite-Labs/siliconcordat-site	2026-11-12T13:03:19Z	Carbon publications page for Siliconcordat.
+Moissanite-Labs/weft-corpus	2026-11-11T20:55:48Z	The original ML Weft discovery sessions, preserved verbatim. Read them as sources, not instructions.
+Moissanite-Labs/synbios	2026-11-11T18:23:09Z	Agentic development collaboration platform.
+Moissanite-Labs/exoframe	2026-11-11T17:01:54Z	ExoFab public intake — ask what to build, watch it ship.
+Moissanite-Labs/exofab	2026-11-10T23:47:04Z	Creation hub of project exo.
+Moissanite-Labs/exo-site	2026-11-10T23:36:57Z	Website build for the project exo live site.
+Moissanite-Labs/exorien	2026-11-07T21:52:03Z	interspatial interspecies interoperability
+Moissanite-Labs/n001	2026-11-04T00:00:18Z	matchmaking for those who are noophilic, demisexual, etc. 
+Moissanite-Labs/mettle	2026-11-03T23:49:12Z	n001+n30
+Moissanite-Labs/n30	2026-11-03T23:49:08Z	give your contextual info to a local model (browser history, social media exports, email, local file directories, cloud storage, etc.) and have it process the i
+Moissanite-Labs/exo-desktop	2026-11-02T20:20:25Z	One agent with one continuous memory. A harness that watches itself and evolves on your desktop.
+Moissanite-Labs/exyber	2026-10-30T05:54:09Z	Replaceable transport adapter for Exo. Allows for one continuous agent presence with explicitly granted reach into different devices.
+Moissanite-Labs/exo-os	2026-10-27T05:33:31Z	Exo OS: an OS form of Project Exo. Replaces a machine's stock OS entirely, with an innovative AI-first operating system. Takes all the ideas and principles of P
+Moissanite-Labs/excalibur	2026-04-03T22:31:52Z	Excalibur is a highly opinionated agent harness for the aspiring summoner.
+
+===== OPEN PRS key orgs =====
+Foundation-0/math0	41	false	2026-11-25T01:34:03Z	studies(s82): cross-field propagation of VP != VNP proof engines (CAT(0) Strassen, 184/184 1D CNOT, Laurent poles, MoE Cheeger & 13 Lean 4.36 theorems)
+Foundation-0/math0	40	false	2026-11-25T01:32:29Z	studies(s81): exact MotifBench ESMFold vs AF2 orphan-collapse tomography, SE(3) chirality & 15 Lean 4.36 theorems
+Foundation-0/math0	39	false	2026-11-25T01:26:56Z	studies(s76): exact L-layer Loop-Schur metric tensor, complex-curl bias & 19 Lean 4.36 theorems for CircularEP
+Foundation-0/aletheia	73	false	2026-11-25T01:31:35Z	evidence(s77): Mellin-GLU quantization-margin rescue, WSP-Gym CS-08/CS-18 exact audit & DPI/BWI 3-regime tomography (18/18 Lean 4.36.0)
+Foundation-0/math0	38	false	2026-11-25T00:45:53Z	studies(s75): independent forensic, mathematical-engine & Lean 4.36.0 tomography of anthropics/formal-math/vp-vnp (VP != VNP over every field)
+Foundation-0/aletheia	72	false	2026-11-25T01:32:57Z	evidence(s80): Rocket async-RL parity, songe idle-sleep ratchet audit & Unsloth CCE 8 GiB roofline (18/18 zero-axiom Lean 4.36.0)
+Foundation-0/aletheia	71	false	2026-11-24T22:52:37Z	evidence: add Track S71 competing-potential 64B proximity-horizon AVX-512 unlock and 20 Lean 4.36.0 theorems (Refs #27)
+Foundation-0/aletheia	70	false	2026-11-24T22:52:34Z	evidence: add domain-agnostic CEER engine with pure-Z/Q ledger and Lean 4.36.0 synthesizer (Refs #27)
+Foundation-0/aletheia	69	false	2026-11-25T00:43:58Z	ci(evidence-tracks): install SHA-256-pinned Lean 4.36.0 for live kernel verification
+Foundation-0/aletheia	68	false	2026-11-24T22:52:26Z	evidence(s62): live 3-cycle Lean 4.36.0 <-> silicon CEER recursion (36 kernel-checked theorems)
+Foundation-0/aletheia	67	false	2026-11-24T22:52:24Z	evidence(s53): beyond-language coordinate-free raw silicon sensor tomography (Stage A/B)
+Foundation-0/aletheia	66	false	2026-11-24T22:52:24Z	evidence(s61): controlled ABBA intel-rapl Landauer-vs-CMOS physics & UX582HS psys scale obstruction
+Foundation-0/aletheia	65	false	2026-11-24T22:52:22Z	evidence(s64): 6-pillar granular silicon-to-universal exact-operator & obstruction atlas
+Foundation-0/aletheia	64	false	2026-11-24T22:52:18Z	evidence(s48): 34 pure-Init Lean 4.36.0 kernel-certified bridge theorems
+Foundation-0/aletheia	63	false	2026-11-24T22:52:16Z	evidence(s55): 923-byte modular certificate compressor & 10 Lean 4.36.0 soundness theorems
+Foundation-0/aletheia	62	false	2026-11-24T22:52:13Z	evidence(s62c): 24 universal Lean 4.36.0 CEER dissipative & Schur foundation theorems
+Foundation-0/aletheia	61	false	2026-11-24T22:52:10Z	evidence(s57): 24 pure-Init Lean 4.36.0 kernel-checked Wave-2 certificates
+Foundation-0/aletheia	60	false	2026-11-24T22:52:07Z	evidence(s65): two-way competing-potential barrier & race-to-sleep silicon unlock (10 Lean 4.36 theorems)
+Foundation-0/aletheia	59	false	2026-11-24T21:39:39Z	evidence: add pure-Z/Q CS-24 Mock-Anchor Silicon Divergence gate (Refs #27)
+Foundation-0/aletheia	58	false	2026-11-24T21:39:38Z	feat(mutator): add opt-in parallel --workers N /dev/shm acceleration with bit-identical output
+Foundation-0/aletheia	56	false	2026-11-24T21:39:36Z	evidence: add pure-Z/Q Silq x CS-21 boundary-cost compiler & live Lean 4.36.0 kernel proofs (Refs #27)
+Foundation-0/math0	37	false	2026-11-24T21:42:09Z	studies: add pure-Z/Q Escher self-application dual-miner & minimum hitting-set study
+Foundation-0/math0	36	false	2026-11-24T21:39:23Z	studies: add pure-Z/Q viscoplastic plate tectonics as ReLU neural network regions suite
+Foundation-0/aletheia	55	false	2026-11-24T21:39:34Z	evidence: add pure-Z/Q zero-Delta-W state-transport & yield-surface tomography operator (Refs #27)
+Foundation-0/math0	35	false	2026-11-24T21:39:22Z	studies: add pure-Z/Q geometric & algorithmic lineage exact-operator suite (Uccello to Sol LeWitt)
+Foundation-0/math0	34	false	2026-11-24T21:39:21Z	studies: add pure-Z/Q entropy smoothing, Worthington focusing & bulk-projected dark-matter suite
+Foundation-0/math0	33	false	2026-11-24T21:42:06Z	studies: add pure-Z/Q SU(2)_k Jones Chern-Simons & Borromean obstruction suite + macOS hardening for S23a
+Foundation-0/math0	32	false	2026-11-24T21:39:19Z	studies: add pure-Z/Q Girih, Book of Kells & Vasarely exact-operator suite
+Foundation-0/math0	31	false	2026-11-24T21:39:18Z	studies: add pure-Z/Q Borel-Ecalle resurgence & Zagier quantum modularity suite
+Foundation-0/aletheia	54	false	2026-11-24T21:39:33Z	fix(evidence/s38): close #52 follow-ups (N0 novelty, Gottesman-Knill scope, CZ const-control, non-hanging renameat2 skip)
+Foundation-0/math0	30	false	2026-11-24T21:42:04Z	studies: add Track S29 zero-float pure-Z/Q Terence Tao exact-operator quintet
+Foundation-0/aletheia	53	false	2026-11-24T21:39:32Z	feat(flow-audit): add continual toroidal-poloidal flow diagnostics (CS-01, CS-22, CS-23)
+Foundation-0/aletheia-shell	2	false	2026-11-24T21:41:43Z	fix(boot): harden prep-boot-drive.sh fail-closed gates (confirm, self-target, ISO verify, device paths)
+Foundation-0/aletheia	35	false	2026-11-24T21:42:39Z	fix(safety): close shell-wrapper/bunx/JSON-key evasions and enforce bounded streaming reads
+Foundation-0/aletheia	34	false	2026-11-25T00:43:57Z	fix(audit,gates_v2): harden Lean 4 static scan, target-root checks, and strict gates_v2 parsing (Refs #13)
+Foundation-0/point-charges	26	false	2026-11-24T23:12:08Z	studies: pure-Z/Q n=3 Maxwell bound exact algebraic identities, incenter theorem, isosceles uniqueness & Krawczyk certification (Refs #4)
+Foundation-0/aletheia	32	false	2026-11-24T21:42:35Z	feat(v2.1): add Zone-B fuzzer, Claim-to-Witness operator, and Magnetic-Field operational gates
+Foundation-0/aletheia	31	false	2026-11-24T21:42:11Z	fix(spec,ratchet): enforce exact Section 6 clause allow-list and strict ratchet ledger AST/decision checks (#29)
+Foundation-0/exoplanets-frontier	13	false	2026-11-24T23:11:42Z	Fix unterminated docstring in cool_vet.py
+Foundation-0/proven-commons	10	false	2026-11-24T23:12:09Z	Sync with upstream Proven-Commons
+Foundation-0/aletheia-corpus	2	true	2026-11-23T19:03:09Z	Pre-registered plan: outside check of the torus-knot pulse (draft)
+Foundation-0/point-charges	24	false	2026-11-24T23:12:05Z	fix(verify_arb): replace bare asserts with -O-safe VerificationError guards and Zone-B schema validation (Closes #21)
+Foundation-0/point-charges	23	false	2026-11-24T23:12:04Z	studies(audit120ar): pure-Z/Q Krawczyk & Bareiss Sylvester-inertia certification of n=4 eleven-equilibrium configurations
+Foundation-0/aletheia-corpus	1	false	2026-11-25T01:32:55Z	Initial bulk import: Aletheia v2.0 research corpus (board, 20 transcripts, tracks S1–S19d)
+Foundation-0/bayt-al-hikma	10	false	2026-11-24T23:11:29Z	docs(verification): outside audit of main at c08544f
+Foundation-0/continuum	8	false	2026-11-24T23:11:41Z	Add the 2026-11-22 whole-repository audit with its checkers
+Foundation-0/continuum	4	false	2026-11-24T23:11:40Z	Add the Continuum site: one page on the Eido loom with live instruments
+Foundation-0/incentre-lattices	111	false	2026-11-24T23:10:50Z	studies: add exact-Q and Q[sqrt(2),sqrt(3)] Maraldi rhombic-dodecahedron certifier
+Foundation-0/gfq-codes	20	false	2026-11-24T23:11:47Z	Study (AUDIT-113R): Conway-Canonical Lazy Incremental Brouwer-Zimmermann Relative-Rank Distance Certifier (15/15 math0#4 codes in 14,526 enums)
+Foundation-0/math0	24	false	2026-11-24T23:11:19Z	studies: clean-room MiniMax-AI/Research cryptanalysis portal audit & coding/lattice operator bridge (AUDIT-109R)
+----- proven -----
+Proven-Commons/mcproof	18	false	2026-11-24T23:12:52Z	GitHub Pages site, written as a checkable proof
+Proven-Commons/mcproof	17	false	2026-11-24T23:12:51Z	Add fail-closed gameplay evidence validator
+Proven-Commons/mcproof	3	false	2026-11-24T23:12:53Z	Build Formal Verification MDE (mcproof v0.1) oracle harness, corpus, weft compiler, stack, and Phase 1-6 audit
+Proven-Commons/mission	37	false	2026-11-20T06:11:34Z	Add playbook companion note on empirical solver, hash-collision, and relaxation hazards
+Proven-Commons/mission	25	false	2026-11-20T05:49:32Z	Check dynamic independent spec reviewers at the current head
+Proven-Commons/uri	2	false	2026-11-22T21:19:44Z	URI reference resolution, with proved claims
+----- moissanite -----
+Moissanite-Labs/siliquant	105	false	2026-11-25T01:46:04Z	studies(s78): exact Engram LoRA Marchenko-Pastur bit-capacity, Joint (bpw, rank) MDL & 17 zero-axiom Lean 4.36 theorems
+Moissanite-Labs/siliquant	103	false	2026-11-25T01:09:55Z	studies(s73): CEER Cycle 6 — 3.0 bpw stratification amplification (-11.42%), p=0.375 Python record (0.018248) & zero-cost shared-norm records (96 live RTX 3080 arms)
+Moissanite-Labs/siliquant	102	false	2026-11-25T00:26:06Z	site: highlight the three strongest results at the top of the Pages site
+Moissanite-Labs/siliquant	101	false	2026-11-25T00:20:05Z	studies(s79): exact 2DSD looped-LM speculative roofline, Dense-and-Sparse CSR vs BlockH4 crossover & MultipoleAttention error bounds (18/18 Lean 4.36.0)
+Moissanite-Labs/siliquant	100	false	2026-11-25T00:09:14Z	feat(s74): siliquant-hf-v1 bit-packed Hugging Face publisher, drop-in transformers loader & verified kernels
+Moissanite-Labs/siliquant	98	false	2026-11-25T00:04:53Z	Gemma closure results on ccf045d + 2026-11-24 addendum arms (M1 Max, Metal -ngl 999)
+Moissanite-Labs/siliquant	97	false	2026-11-25T00:04:47Z	A_16 Hamming-lattice ball arms + @16 stock-decode controls in the Gemma runner (2026-11-24 addendum)
+Moissanite-Labs/weft-loom	48	false	2026-11-24T22:02:26Z	Gemini cells (#27): note, pilot record, and block 2 part A (the building gap did not hold)
+Moissanite-Labs/siliquant	67	false	2026-11-24T21:41:52Z	Add Siliquant weight quantization brief
+Moissanite-Labs/siliquant	57	true	2026-11-24T05:17:27Z	Gemma ball sweep: impact analysis (270M, 1B, 4B), parser and audit trail
+Moissanite-Labs/siliquant	54	false	2026-11-24T23:12:20Z	Add auto-updating Siliquant research hub
+Moissanite-Labs/mlx	4	false	2026-11-23T09:24:37Z	feat(layers): additive Flux-Helicity Projection + Quantized Matmul Epilogue layer
+Moissanite-Labs/warp-drive	63	false	2026-11-23T02:29:08Z	Record the candidate digest before mounting the adapter
+Moissanite-Labs/exo	1256	false	2026-11-23T02:29:19Z	List provider models concurrently, isolate failures, surface listing errors
+Moissanite-Labs/warp-drive	62	false	2026-11-23T01:18:52Z	Repair receipt schema and pin versioned manifest
+Moissanite-Labs/warp-drive	61	false	2026-11-23T00:28:11Z	Fail closed when the live ledger head changes
+Moissanite-Labs/warp-drive	60	false	2026-11-23T00:28:09Z	Reject malformed adapter ids, scales, and non-finite constraints
+Moissanite-Labs/warp-drive	43	false	2026-11-23T00:00:58Z	Add the 2026-11-22 audit record (findings, checkers, issue drafts)
+Moissanite-Labs/warp-drive	42	false	2026-11-23T01:37:57Z	Add the voyage site: docs pages and Pages workflow
+Moissanite-Labs/warp-drive	41	false	2026-11-23T00:13:03Z	Prepare warp-drive for offline alpha testing
+Moissanite-Labs/weft-loom	47	true	2026-11-23T03:29:00Z	Proposal (not approved): sample several calls at once in the training loop
+Moissanite-Labs/warp-drive	38	false	2026-11-22T20:22:21Z	Research: preserve ratchet-001 N0 closure and Cave replay
+Moissanite-Labs/warp-drive	37	false	2026-11-22T23:00:14Z	Fail closed on dirty KV bank and missing slot listing, add issue 31 tests
+Moissanite-Labs/warp-drive	36	false	2026-11-23T05:44:27Z	Add fail-closed gameplay evidence intake gate
+Moissanite-Labs/heedle	9	false	2026-11-22T15:44:57Z	fix(core,draft,web): tighten T1 boundary relaxation, guard shaft_move/shaftMove rank & harden draft/JS canonicalJson
+Moissanite-Labs/weft-loom	46	true	2026-11-22T15:00:02Z	Training on exact feedback with Inkling 2 Mini: plan, harness and a pilot run (no registered result yet)
+Moissanite-Labs/warp-drive	20	false	2026-11-22T20:29:47Z	research: preserve completed iteration trials and adversarial reviews
+Moissanite-Labs/weft-loom	44	true	2026-11-22T15:32:06Z	Record: the sign lineage test for gated MLPs (exact chance law, validity checks, evasion)
+Moissanite-Labs/warp-drive	11	false	2026-11-23T02:16:59Z	lane 7: independent verifier and audit log for deployment, rejection, and rollback
+Moissanite-Labs/weft	227	false	2026-11-25T00:52:18Z	Add WEFT-T5 clean-room Lafont interaction-combinator & BCP v2 trace-replay verifier (AUDIT-033)
+Moissanite-Labs/scry	4	false	2026-11-21T17:29:55Z	Study: Exact Nonlinear Top-p Support-Truncation Extinction & 1D PGL(2,Q) Mobius Collapse (PR #1)
+Moissanite-Labs/hillclimb	4	false	2026-11-22T21:19:15Z	Study: Aletheia Ratchet, Pre-Adaptation Latch & Unified MDE Governance (AUDIT-026R, AUDIT-034R)
+Moissanite-Labs/tokenpage	13	false	2026-11-22T21:19:20Z	Study: PR #5 / Issue #9 Proper-KL Legend Audit, Data-Hygiene Catch & Exact Sub-Text Theorems
+Moissanite-Labs/weft-loom	42	false	2026-11-22T21:19:42Z	Study: Repair-Signal Post-Treatment Mediation & Compute Crossover (PR #38) & Exact Null-Law/Schur Audits
+Moissanite-Labs/weft-loom	38	true	2026-11-22T15:56:58Z	Record: repair signal, preregistered, both models run (neither supports the claim)
+Moissanite-Labs/ml-os	6	false	2026-11-20T07:34:52Z	Geminus/2026 11 19 m1 runtime findings
+Moissanite-Labs/mlx	3	false	2026-11-23T08:16:26Z	unify
+Moissanite-Labs/weft-loom	37	false	2026-11-22T15:16:56Z	Add DAWE model-family note for a single 4090
+Moissanite-Labs/weft-loom	36	false	2026-11-22T15:22:41Z	notes: spliceware cellular substrate and lexicase anchor gating
+Moissanite-Labs/nullmodem	3	false	2026-11-22T16:18:24Z	notes: RAM == WIRE == HASH cell gossip as a below-text benchmark
+----- aska-physical -----
+aska-physical/optifab	19	false	2026-11-24T22:39:46Z	optifab v0.3.2: follow funi-frame v0.1.1, which adopted findings 1 and 2
+aska-physical/cfrp-truss	7	false	2026-11-24T21:39:42Z	fix(verify): replace NaN-swallowing max/min with finite-strict checks and atomic dir_fd Zone-B cert I/O
+aska-physical/fibral-rigidity	8	false	2026-11-24T21:39:43Z	fix(verify): close NaN-swallowing max(), full-matrix finiteness, and atomic dir_fd Zone-B cert I/O
+aska-physical/optifab	16	false	2026-11-24T23:09:44Z	fix(verify): close NaN-swallowing and Zone-B canonical JSON gaps
+aska-physical/optifab	15	false	2026-11-24T23:09:43Z	studies: add exact-Q optifab #14 outage, cascade surge, and passive sink-loop audit
+aska-physical/fibral-rigidity	7	false	2026-11-24T23:09:15Z	studies: add exact-Q unilateral prestress, F3 bracing & bar-cut localization audit
+aska-physical/fibral-rigidity	5	false	2026-11-24T23:09:11Z	Show a length box whose corners are stable and whose interior is not
+aska-physical/optifab	12	false	2026-11-24T23:14:44Z	Add standalone Pages site: OptiFab at optifab.askaconsult.com
+aska-physical/cfrp-strengthening	17	false	2026-11-24T23:09:02Z	Docs and rules fixes for issues #5 and #13: claim labels, agent prompt, derived values, Track 4 guide, ledger
+aska-physical/cfrp-strengthening	7	false	2026-11-24T23:09:03Z	Checker fixes for issue #4: service concrete check, yield, Whitney block, guards

@@ -4,6 +4,8 @@ Receiving-side checker for [cfrp-masts#1](https://github.com/aska-physical/cfrp-
 
 Novelty label: **N0**. Oracle: **exact**. The closed form is the fcc row of `Foundation-0/incentre-lattices` `results/fold-m1/PROOF.md` at commit `96f7bc7ed52e27d472b3ba69c5f555c1cbf307cc` (blob `bd396624fd7f443db89c243c4d6a28d443724800`). Segment distance is classical. The local fact is a scope correction: the proved ball packing does not clear a tube whose outer radius equals the proved ball radius.
 
+The lab notebook is [CAPTURE.md](CAPTURE.md): the hand check, the lattice enumeration, both mutation runs, and every seam from this pass that was not transferred. Raw `gh` listings are in [survey/](survey/).
+
 ## The state
 
 One octahedron. Units of `K = 2 - sqrt(2)`. Dots at `±e_i`. Lattice rows `(2,-1,-1)`, `(1,2,-1)`, `(1,-1,2)`. `det L = 12 K^3`. Fifteen bars: the twelve octahedron edges, and three linking bars from `+e_a` to `-e_a` in the next cell. Every bar has squared length `2`, which is `(2R)^2` for `R = sqrt(2) - 1`. The checker recomputes that, the determinant, and twelve contacts per ball with no closer pair. It does not read the upstream repository.

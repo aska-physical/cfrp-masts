@@ -1,0 +1,163 @@
+{
+  "verdict": "FAIL",
+  "killed": 5,
+  "survived": 16,
+  "total_mutants": 21,
+  "kill_rate_pct": 23.81,
+  "truncated": false,
+  "mutants_discovered": 21,
+  "note": "Survivors transcribed from the session log of the first mutate run. That log printed survivors only, so the five killed ids are not in this file. Line numbers are of the draft before the witness lattices were added. The passing run is mutation-pass.json.",
+  "covered_lines": [
+    30,
+    93,
+    216,
+    240,
+    266,
+    338,
+    339,
+    340,
+    342,
+    343,
+    346,
+    394,
+    413,
+    417
+  ],
+  "survivors": [
+    {
+      "id": "M001",
+      "kind": "guard_if_reject",
+      "line": 30,
+      "original": "if not ok:",
+      "mutated": "if False:",
+      "returncode": 0,
+      "status": "SURVIVED"
+    },
+    {
+      "id": "M004",
+      "kind": "guard_require_call",
+      "line": 216,
+      "original": "need(best is not None and best > 0, ...)",
+      "mutated": "need(True, ...)",
+      "returncode": 0,
+      "status": "SURVIVED"
+    },
+    {
+      "id": "M005",
+      "kind": "guard_require_call",
+      "line": 240,
+      "original": "need(best is not None, ...)",
+      "mutated": "need(True, ...)",
+      "returncode": 0,
+      "status": "SURVIVED"
+    },
+    {
+      "id": "M006",
+      "kind": "boundary_cmp",
+      "line": 266,
+      "original": "Fraction(outside, 1) <= 8 + q",
+      "mutated": "Fraction(outside, 1) < 8 + q",
+      "returncode": 0,
+      "status": "SURVIVED"
+    },
+    {
+      "id": "M007",
+      "kind": "guard_if_reject",
+      "line": 266,
+      "original": "if Fraction(outside, 1) <= 8 + q:",
+      "mutated": "if False:",
+      "returncode": 0,
+      "status": "SURVIVED"
+    },
+    {
+      "id": "M009",
+      "kind": "guard_require_call",
+      "line": 338,
+      "original": "need(len(bars) == 15, ...)",
+      "mutated": "need(True, ...)",
+      "returncode": 0,
+      "status": "SURVIVED"
+    },
+    {
+      "id": "M010",
+      "kind": "guard_require_call",
+      "line": 339,
+      "original": "need(bars_exact(dots, rows, bars), ...)",
+      "mutated": "need(True, ...)",
+      "returncode": 0,
+      "status": "SURVIVED"
+    },
+    {
+      "id": "M012",
+      "kind": "guard_require_call",
+      "line": 340,
+      "original": "need(det3(rows) == 12, ...)",
+      "mutated": "need(True, ...)",
+      "returncode": 0,
+      "status": "SURVIVED"
+    },
+    {
+      "id": "M013",
+      "kind": "guard_require_call",
+      "line": 342,
+      "original": "need(ball_min is not None and ball_min >= 2, ...)",
+      "mutated": "need(True, ...)",
+      "returncode": 0,
+      "status": "SURVIVED"
+    },
+    {
+      "id": "M015",
+      "kind": "guard_require_call",
+      "line": 343,
+      "original": "need(degree == [12, 12, 12, 12, 12, 12], ...)",
+      "mutated": "need(True, ...)",
+      "returncode": 0,
+      "status": "SURVIVED"
+    },
+    {
+      "id": "M016",
+      "kind": "guard_require_call",
+      "line": 346,
+      "original": "need(lattice_box_is_exhaustive(rows, min_d2), ...)",
+      "mutated": "need(True, ...)",
+      "returncode": 0,
+      "status": "SURVIVED"
+    },
+    {
+      "id": "M017",
+      "kind": "guard_require_call",
+      "line": 394,
+      "original": "need(cert['clears'] is True, ...)",
+      "mutated": "need(True, ...)",
+      "returncode": 0,
+      "status": "SURVIVED"
+    },
+    {
+      "id": "M018",
+      "kind": "boundary_cmp_require",
+      "line": 413,
+      "original": "exc.code == 'TUBE_COLLISION'",
+      "mutated": "exc.code != 'TUBE_COLLISION'",
+      "returncode": 0,
+      "status": "SURVIVED"
+    },
+    {
+      "id": "M019",
+      "kind": "guard_require_call",
+      "line": 413,
+      "original": "need(exc.code == 'TUBE_COLLISION', ...)",
+      "mutated": "need(True, ...)",
+      "returncode": 0,
+      "status": "SURVIVED"
+    },
+    {
+      "id": "M020",
+      "kind": "boundary_cmp_require",
+      "line": 417,
+      "original": "decide(limit / 2) == 'PASS'",
+      "mutated": "(log line truncated in the session record)",
+      "returncode": 0,
+      "status": "SURVIVED"
+    }
+  ]
+}
